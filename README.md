@@ -5,7 +5,7 @@ Entities marker for NER on React and Electron with Microsoft office UI
 ## Install
 ``` bash
 # Clone the repository
-$ git clone https://github.com/YarosJ/entitiesMarker
+$ git clone https://github.com/YarosJ/entitiesMarker.git
 
 # Go into the repository
 $ cd entitiesMarker
