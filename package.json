@@ -8,8 +8,8 @@
     "serve": "electron . --inspect",
     "start": "npm-run-all --parallel bundle serve"
   },
-  "author": "J. Renato Ramos González <renato.etc.etc.etc@gmail.com>",
-  "repository": "pastahito/electron-react-webpack",
+  "author": "YarosJ",
+  "repository": "",
   "license": "WTFPL",
   "devDependencies": {
     "babel-core": "^6.26.0",
