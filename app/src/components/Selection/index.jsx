@@ -7,7 +7,7 @@ export default class Selection extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedType: 'ORG',
+      selectedType: 'LOC',
       selectionStart: undefined,
       selectionEnd: undefined,
       selection: undefined,
@@ -46,7 +46,7 @@ export default class Selection extends Component {
           {selection}
           <Dropdown
             placeHolder="Select an Option"
-            defaultSelectedKey="ORG"
+            defaultSelectedKey="LOC"
             onChange={this.selectType}
             options={[
               { key: 'LOC', text: 'LOC' },
