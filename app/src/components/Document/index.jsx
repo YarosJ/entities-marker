@@ -54,6 +54,7 @@ export default class App extends Component {
   }
 
   writeFile(data) {
+    data.text = this.props.dock;
     fs.appendFileSync('NER_Kramvoda.txt', `${JSON.stringify(data)}, `);
     this.setState({ selections: [] });
     this.props.next();
